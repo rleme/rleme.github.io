@@ -1,5 +1,6 @@
 ---
 layout: post
+theme: hacker
 title: "O que é Shift‑Left Security"
 date: 2026-03-10
 categories: [Security, DevSecOps]
