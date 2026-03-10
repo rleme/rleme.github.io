@@ -101,4 +101,16 @@ Essa opção ativa automaticamente:
 
 ### Caminho de Configuração
 
+Essa opção ativa automaticamente CodeQL, Secret Scanning, Dependabot e Push Protection em massa.
+Caminho:
+•	Org → Settings
+•	Security → Advanced Security → Configurations
+•	Selecione GitHub recommended
+•	Aplicar em: 
+o	Todos os repositórios
+ou
+o	 Apenas novos repositórios
+
+
+
 ``
