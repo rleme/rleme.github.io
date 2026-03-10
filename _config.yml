@@ -1,5 +1,5 @@
 
-title: My GitHub Blog
-description: My technical notes and articles
-theme: minima
-author: Rodrigo Leme
+
+title: rleme Blog
+description: Posts sobre Security, DevSecOps e GitHub
+theme: jekyll-theme-hacker
