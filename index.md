@@ -1,6 +1,5 @@
 ---
 layout: post
-theme: hacker
 title: "O que é Shift‑Left Security"
 date: 2026-03-10
 categories: [Security, DevSecOps]
@@ -43,9 +42,10 @@ O **GitHub Advanced Security (GHAS)** fortalece os testes automatizados ao longo
 - **Bloqueia automaticamente o push** quando um segredo é identificado
 - Analisa todo o histórico do repositório
 
-assets/images/shift-left/code-scanning.png
 
-assets/images/shift-left/code-scanning-02.png
+![Code scanning](/assets/images/shift-left/code-scanning.png)
+![Code scanning](/assets/images/shift-left/code-scanning-02.png)
+
 
 ---
 
@@ -57,8 +57,10 @@ assets/images/shift-left/code-scanning-02.png
 - Abre **pull requests automáticos** com correções
 - Avalia riscos de novas dependências adicionadas ao código
 
-assets/images/shift-left/sca.png
-assets/images/shift-left/sca-02.png
+
+![Code scanning](/assets/images/shift-left/sca.png)
+![Code scanning](/assets/images/shift-left/sca-02.png)
+
 
 ---
 
@@ -73,8 +75,10 @@ Executa análises em:
 
 Isso permite detectar vulnerabilidades quando os desenvolvedores **ainda estão codando**.
 
-assets/images/shift-left/secret-scanning.png
-assets/images/shift-left/secret-scanning-02.png
+
+![Code scanning](/assets/images/shift-left/secret-scanning.png)
+![Code scanning](/assets/images/shift-left/secret-scanning-02.png)
+
 
 ---
 
@@ -103,13 +107,13 @@ Essa opção ativa automaticamente:
 
 Essa opção ativa automaticamente CodeQL, Secret Scanning, Dependabot e Push Protection em massa.
 Caminho:
-•	Org → Settings
-•	Security → Advanced Security → Configurations
-•	Selecione GitHub recommended
-•	Aplicar em: 
-o	Todos os repositórios
+-	Org → Settings
+-	Security → Advanced Security → Configurations
+-	Selecione GitHub recommended
+-	Aplicar em: 
+-	Todos os repositórios
 ou
-o	 Apenas novos repositórios
+-	 Apenas novos repositórios
 
 
 
