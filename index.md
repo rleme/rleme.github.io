@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "O que é Shift‑Left Security"
+title: "Advanced Security Auto Fix - Shift Left"
 date: 2026-03-10
 categories: [Security, DevSecOps]
 tags: [Shift-Left, GitHub Advanced Security, GHAS, CodeQL]
