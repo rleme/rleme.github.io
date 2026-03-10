@@ -42,9 +42,9 @@ O **GitHub Advanced Security (GHAS)** fortalece os testes automatizados ao longo
 - **Bloqueia automaticamente o push** quando um segredo é identificado
 - Analisa todo o histórico do repositório
 
-assets/images/shift-left/secret-scanning.png
+assets/images/shift-left/code-scanning.png
 
-assets/images/shift-left/push-protection.png
+assets/images/shift-left/code-scanning-02.png
 
 ---
 
@@ -56,7 +56,8 @@ assets/images/shift-left/push-protection.png
 - Abre **pull requests automáticos** com correções
 - Avalia riscos de novas dependências adicionadas ao código
 
-assets/images/shift-left/dependabot.png
+assets/images/shift-left/sca.png
+assets/images/shift-left/sca-02.png
 
 ---
 
@@ -71,7 +72,8 @@ Executa análises em:
 
 Isso permite detectar vulnerabilidades quando os desenvolvedores **ainda estão codando**.
 
-assets/images/shift-left/code-scanning.png
+assets/images/shift-left/secret-scanning.png
+assets/images/shift-left/secret-scanning-02.png
 
 ---
 
