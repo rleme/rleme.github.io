@@ -45,6 +45,10 @@ O **GitHub Advanced Security (GHAS)** fortalece os testes automatizados ao longo
 
 ![Code scanning](/assets/images/shift-left/code-scanning.png)
 
+
+
+
+
 ![Code scanning](/assets/images/shift-left/code-scanning-02.png)
 
 
