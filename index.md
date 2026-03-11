@@ -114,7 +114,7 @@ são armazenadas em cache sempre que possível, reduzindo a necessidade de proce
 
 
 O **GitHub Autofix** funciona **sobre o GHAS Code Scanning (CodeQL)**:
-code-scanning-workflow.png
+
 
 1. Uma vulnerabilidade é detectada durante o desenvolvimento
 2. O Autofix gera uma **correção contextualizada**
