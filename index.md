@@ -49,7 +49,7 @@ O **GitHub Advanced Security (GHAS)** fortalece os testes automatizados ao longo
 
 
 
-![Code scanning](/assets/images/shift-left/code-scanning-02.png)
+
 
 
 ---
@@ -65,7 +65,7 @@ O **GitHub Advanced Security (GHAS)** fortalece os testes automatizados ao longo
 
 ![Code scanning](/assets/images/shift-left/sca.png)
 
-![Code scanning](/assets/images/shift-left/sca-02.png)
+
 
 
 ---
@@ -84,7 +84,6 @@ Isso permite detectar vulnerabilidades quando os desenvolvedores **ainda estão 
 
 ![Code scanning](/assets/images/shift-left/secret-scanning.png)
 
-![Code scanning](/assets/images/shift-left/secret-scanning-02.png)
 
 
 ---
@@ -98,6 +97,16 @@ O **GitHub Autofix** funciona **sobre o GHAS Code Scanning (CodeQL)**:
 3. A correção é sugerida **antes do merge**, muitas vezes como uma sugestão de PR
 
 Isso leva a **remediação para a esquerda**, e não apenas a detecção.
+
+
+![Code scanning](/assets/images/shift-left/auto-fix-03.png)
+
+
+- Item 1 voce pode verificar que foi gerado um Autofix pelo Copilot Autofix
+- Item 2 a issue foi associada ao Copilot Agent, que executa todo processo de PR
+- Item 3 PR criado aguardando por revisão e aprovação
+- Item 4 lado esquerdo o problema e do lado direito a proposta do Copilot Autofix
+
 
 ---
 
