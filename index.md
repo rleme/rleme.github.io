@@ -156,10 +156,12 @@ ou
 -	 Apenas novos repositórios
 
 
-## Read our publications:
-1- Impulsando la adopción de IA con ADKAR (Awareness, Desire, Knowledge, Ability, and Reinforcemen…
-2- Where are you in AI Solutions? | LinkedIn
+## Leia também:
 
+Read our publications:
+
+1. [Impulsando la adopción de IA con ADKAR (Awareness, Desire, Knowledge, Ability, and Reinforcement)](https://aka.ms/AA107836)
+2. [Where are you in AI Solutions? | LinkedIn](https://aka.ms/AA10783e)
 
 
 ``
