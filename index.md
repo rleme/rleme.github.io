@@ -88,9 +88,28 @@ Isso permite detectar vulnerabilidades quando os desenvolvedores **ainda estão 
 
 ---
 
-## GitHub Autofix
+## GitHub Autofix Arquitetura e Workflow
+
+O usuário abre um pull request ou faz o push de um commit. A varredura de código é executada normalmente, como parte de um workflow do GitHub Actions 
+ou de um workflow em um sistema de CI de terceiros, enviando os resultados no formato SARIF para a API de code scanning.
+O serviço de backend de code scanning verifica se os resultados correspondem a uma linguagem suportada. Em caso afirmativo, 
+ele executa o gerador de correções como uma ferramenta de linha de comando (CLI).
+O gerador de correções utiliza os dados dos alertas SARIF, enriquecidos com trechos relevantes do código-fonte do repositório, para criar um prompt 
+para o LLM. Em seguida, ele chama o LLM por meio de uma chamada autenticada de API para uma API interna implantada no Azure que executa modelos de linguagem.
+A resposta do LLM passa por um sistema de filtragem que ajuda a prevenir determinadas classes de respostas prejudiciais. Depois disso, o gerador de correções
+pós-processa a resposta do LLM para produzir uma sugestão de correção.
+O backend de code scanning armazena a sugestão resultante, tornando-a disponível para exibição junto ao alerta nas visualizações de pull request. As sugestões 
+são armazenadas em cache sempre que possível, reduzindo a necessidade de processamento do LLM.
+
+
+
+
+![Code scanning](/assets/images/shift-left/code-scanning-workflow.png)
+
+
 
 O **GitHub Autofix** funciona **sobre o GHAS Code Scanning (CodeQL)**:
+code-scanning-workflow.png
 
 1. Uma vulnerabilidade é detectada durante o desenvolvimento
 2. O Autofix gera uma **correção contextualizada**
