@@ -6,6 +6,11 @@ categories: [Security, DevSecOps]
 tags: [Shift-Left, GitHub Advanced Security, GHAS, CodeQL]
 ---
 
+
+![Code scanning](/assets/images/shift-left/capa.png)
+
+
+
 ## O que é Shift‑Left Security
 
 O **Shift‑Left Security** coloca a segurança de software no centro do desenvolvimento. Em vez de tratar a segurança como um item de verificação final ao término do **SDLC**, essa abordagem incorpora práticas de segurança desde o primeiro dia.
